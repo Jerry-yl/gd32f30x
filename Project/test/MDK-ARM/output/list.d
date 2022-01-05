@@ -1,0 +1,16 @@
+.\output\list.o: ..\osal\FreeRTOS\kernel\list.c
+.\output\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\list.o: ..\osal\FreeRTOS\kernel\include\FreeRTOS.h
+.\output\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\list.o: ..\osal\FreeRTOS\FreeRTOSConfig.h
+.\output\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\list.o: ..\source\common\log.h
+.\output\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\list.o: ..\source\config.h
+.\output\list.o: ..\osal\FreeRTOS\kernel\include\projdefs.h
+.\output\list.o: ..\osal\FreeRTOS\kernel\include\portable.h
+.\output\list.o: ..\osal\FreeRTOS\kernel\include\deprecated_definitions.h
+.\output\list.o: ..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h
+.\output\list.o: ..\osal\FreeRTOS\kernel\include\mpu_wrappers.h
+.\output\list.o: ..\osal\FreeRTOS\kernel\include\list.h

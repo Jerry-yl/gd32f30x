@@ -1,0 +1,1444 @@
+Dependencies for Project 'test', Target 'Temp_Controller': (DO NOT MODIFY !)
+F (..\main.c)(0x61D3FB89)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\..\..\Library\Utilities\gd32f303e_eval.h)(0x5FD98420)
+I (..\systick.h)(0x61CEC786)
+I (..\osal\osal.h)(0x61D3F834)
+I (..\source\common\types.h)(0x61A9ADBE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+I (..\source\system\system.h)(0x61CEC786)
+I (..\source\output\uart_printf.h)(0x61CEC786)
+I (..\bsp\delay\delay.h)(0x61CEC786)
+F (..\gd32f30x_it.c)(0x61CABD08)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_it.o --omf_browse .\output\gd32f30x_it.crf --depend .\output\gd32f30x_it.d)
+I (..\gd32f30x_it.h)(0x61ADC2BF)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\systick.h)(0x61CEC786)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+F (..\systick.c)(0x61CEC786)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\systick.o --omf_browse .\output\systick.crf --depend .\output\systick.d)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\systick.h)(0x61CEC786)
+F (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c)(0x60375983)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\system_gd32f30x.o --omf_browse .\output\system_gd32f30x.crf --depend .\output\system_gd32f30x.d)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_adc.o --omf_browse .\output\gd32f30x_adc.crf --depend .\output\gd32f30x_adc.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_bkp.o --omf_browse .\output\gd32f30x_bkp.crf --depend .\output\gd32f30x_bkp.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_can.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_can.o --omf_browse .\output\gd32f30x_can.crf --depend .\output\gd32f30x_can.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_crc.o --omf_browse .\output\gd32f30x_crc.crf --depend .\output\gd32f30x_crc.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_ctc.o --omf_browse .\output\gd32f30x_ctc.crf --depend .\output\gd32f30x_ctc.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_dac.o --omf_browse .\output\gd32f30x_dac.crf --depend .\output\gd32f30x_dac.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_dbg.o --omf_browse .\output\gd32f30x_dbg.crf --depend .\output\gd32f30x_dbg.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_dma.o --omf_browse .\output\gd32f30x_dma.crf --depend .\output\gd32f30x_dma.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c)(0x61CEC6D5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_enet.o --omf_browse .\output\gd32f30x_enet.crf --depend .\output\gd32f30x_enet.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_exmc.o --omf_browse .\output\gd32f30x_exmc.crf --depend .\output\gd32f30x_exmc.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_exti.o --omf_browse .\output\gd32f30x_exti.crf --depend .\output\gd32f30x_exti.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_fmc.o --omf_browse .\output\gd32f30x_fmc.crf --depend .\output\gd32f30x_fmc.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_fwdgt.o --omf_browse .\output\gd32f30x_fwdgt.crf --depend .\output\gd32f30x_fwdgt.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_gpio.o --omf_browse .\output\gd32f30x_gpio.crf --depend .\output\gd32f30x_gpio.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_i2c.o --omf_browse .\output\gd32f30x_i2c.crf --depend .\output\gd32f30x_i2c.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_misc.o --omf_browse .\output\gd32f30x_misc.crf --depend .\output\gd32f30x_misc.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_pmu.o --omf_browse .\output\gd32f30x_pmu.crf --depend .\output\gd32f30x_pmu.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_rcu.o --omf_browse .\output\gd32f30x_rcu.crf --depend .\output\gd32f30x_rcu.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_rtc.o --omf_browse .\output\gd32f30x_rtc.crf --depend .\output\gd32f30x_rtc.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_sdio.o --omf_browse .\output\gd32f30x_sdio.crf --depend .\output\gd32f30x_sdio.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c)(0x60375982)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_spi.o --omf_browse .\output\gd32f30x_spi.crf --depend .\output\gd32f30x_spi.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_timer.o --omf_browse .\output\gd32f30x_timer.crf --depend .\output\gd32f30x_timer.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_usart.o --omf_browse .\output\gd32f30x_usart.crf --depend .\output\gd32f30x_usart.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c)(0x5FD98421)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f30x_wwdgt.o --omf_browse .\output\gd32f30x_wwdgt.crf --depend .\output\gd32f30x_wwdgt.d)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\..\..\Library\Utilities\gd32f303e_eval.c)(0x5FD98420)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\gd32f303e_eval.o --omf_browse .\output\gd32f303e_eval.crf --depend .\output\gd32f303e_eval.d)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\..\..\Library\Utilities\gd32f303e_eval.h)(0x5FD98420)
+F (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Source\ARM\startup_gd32f30x_hd.s)(0x5FD98420)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0--pd "__UVISION_VERSION SETA 515" --pd "GD32F30X_HD SETA 1"--list .\list\startup_gd32f30x_hd.lst --xref -o .\output\startup_gd32f30x_hd.o --depend .\output\startup_gd32f30x_hd.d)
+F (..\readme.txt)(0x00000000)()
+F (..\bsp\key\key.c)(0x6184F0EE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\key.o --omf_browse .\output\key.crf --depend .\output\key.d)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\bsp\led\led.h)(0x6184F0EE)
+F (..\bsp\led\led.c)(0x6184F0EE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\led.o --omf_browse .\output\led.crf --depend .\output\led.d)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\bsp\led\led.h)(0x6184F0EE)
+F (..\bsp\i2c\i2c.c)(0x61CEC786)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\i2c.o --omf_browse .\output\i2c.crf --depend .\output\i2c.d)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\bsp\i2c\i2c.h)(0x61CEC786)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\bsp\delay\delay.h)(0x61CEC786)
+F (..\bsp\delay\delay.c)(0x61CEC786)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\delay.o --omf_browse .\output\delay.crf --depend .\output\delay.d)
+I (..\bsp\delay\delay.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\source\system\system.c)(0x61D3F7DC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\system.o --omf_browse .\output\system.crf --depend .\output\system.d)
+I (..\source\system\system.h)(0x61CEC786)
+I (..\source\config.h)(0x61CEC786)
+I (..\source\output\uart_printf.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\..\..\Library\Utilities\gd32f303e_eval.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\osal\osal.h)(0x61D3F834)
+I (..\source\common\types.h)(0x61A9ADBE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+I (..\source\common\util.h)(0x61CEC786)
+I (..\source\system\test_task.h)(0x61D3F863)
+F (..\source\output\uart_printf.c)(0x61CEC786)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\uart_printf.o --omf_browse .\output\uart_printf.crf --depend .\output\uart_printf.d)
+I (..\source\output\uart_printf.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\..\..\Library\Utilities\gd32f303e_eval.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+I (..\source\config.h)(0x61CEC786)
+F (..\source\common\timer.c)(0x61CEC786)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\timer.o --omf_browse .\output\timer.crf --depend .\output\timer.d)
+I (..\source\common\timer.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\osal.h)(0x61D3F834)
+I (..\source\common\types.h)(0x61A9ADBE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+F (..\source\common\kfifo.c)(0x61CEC786)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\kfifo.o --omf_browse .\output\kfifo.crf --depend .\output\kfifo.d)
+I (..\source\common\kfifo.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (..\source\common\util.c)(0x61CEC786)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\util.o --omf_browse .\output\util.crf --depend .\output\util.d)
+I (..\source\common\util.h)(0x61CEC786)
+I (..\source\common\types.h)(0x61A9ADBE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\source\system\test_task.c)(0x61D4088C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\test_task.o --omf_browse .\output\test_task.crf --depend .\output\test_task.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\osal\osal.h)(0x61D3F834)
+I (..\source\common\types.h)(0x61A9ADBE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+I (..\systick.h)(0x61CEC786)
+I (..\..\..\Library\Utilities\gd32f303e_eval.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\osal\osal.c)(0x61CEC786)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\osal.o --omf_browse .\output\osal.crf --depend .\output\osal.d)
+I (..\source\common\types.h)(0x61A9ADBE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\osal.h)(0x61D3F834)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmInstr.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\core_cmFunc.h)(0x61CEC6D5)
+I (..\..\..\Library\Firmware\CMSIS\core_cm4_simd.h)(0x5FD98420)
+I (..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5FD98420)
+I (..\gd32f30x_libopt.h)(0x6184F0EE)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x60375982)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x5FD98421)
+I (..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x5FD98421)
+F (..\osal\FreeRTOS\kernel\croutine.c)(0x618F2695)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\croutine.o --omf_browse .\output\croutine.crf --depend .\output\croutine.d)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\croutine.h)(0x618F2695)
+F (..\osal\FreeRTOS\kernel\event_groups.c)(0x618F2695)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\event_groups.o --omf_browse .\output\event_groups.crf --depend .\output\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\timers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\event_groups.h)(0x618F2695)
+F (..\osal\FreeRTOS\kernel\list.c)(0x618F2695)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\list.o --omf_browse .\output\list.crf --depend .\output\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+F (..\osal\FreeRTOS\kernel\queue.c)(0x618F2695)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\queue.o --omf_browse .\output\queue.crf --depend .\output\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\queue.h)(0x618F2695)
+F (..\osal\FreeRTOS\kernel\tasks.c)(0x618F2695)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\tasks.o --omf_browse .\output\tasks.crf --depend .\output\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\timers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\stack_macros.h)(0x618F2695)
+F (..\osal\FreeRTOS\kernel\timers.c)(0x618F2695)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\timers.o --omf_browse .\output\timers.crf --depend .\output\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\queue.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\timers.h)(0x618F2695)
+F (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\port.c)(0x618F2695)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\port.o --omf_browse .\output\port.crf --depend .\output\port.d)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
+F (..\osal\FreeRTOS\kernel\portable\MemMang\heap_4.c)(0x618F2695)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\Library\Firmware\CMSIS -I..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include -I..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include -I..\..\..\Library\Utilities -I..\ -I..\bsp\key -I..\bsp\led -I..\source -I..\osal\FreeRTOS\kernel\include -I..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F -I..\osal\FreeRTOS -I..\osal -I..\source\system -I..\source\output -I..\source\input\sensor -I..\source\common -I..\bsp\i2c -I..\bsp\delay -I..\source\network-I D:\workspace\GD32F30x_Test\Project\test\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.1.0-D__UVISION_VERSION="515" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -D__FPU_PRESENT-o .\output\heap_4.o --omf_browse .\output\heap_4.crf --depend .\output\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\osal\FreeRTOS\kernel\include\FreeRTOS.h)(0x618F2695)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\osal\FreeRTOS\FreeRTOSConfig.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\source\common\log.h)(0x61CEC786)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\source\config.h)(0x61CEC786)
+I (..\osal\FreeRTOS\kernel\include\projdefs.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\portable.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\deprecated_definitions.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\portmacro.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\mpu_wrappers.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\task.h)(0x618F2695)
+I (..\osal\FreeRTOS\kernel\include\list.h)(0x618F2695)
