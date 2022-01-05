@@ -22,7 +22,7 @@
   </DaveTm>
 
   <Target>
-    <TargetName>Temp_Controller</TargetName>
+    <TargetName>test</TargetName>
     <ToolsetNumber>0x4</ToolsetNumber>
     <ToolsetName>ARM-ADS</ToolsetName>
     <TargetOption>
@@ -117,7 +117,6 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name>w€?</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -164,34 +163,34 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>31</LineNumber>
+          <LineNumber>44</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134222712</Address>
+          <Address>134218456</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\main.c</Filename>
+          <Filename>..\gd32f30x_it.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\test\../main.c\31</Expression>
+          <Expression>\\test\../gd32f30x_it.c\44</Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>22</LineNumber>
+          <LineNumber>31</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134225464</Address>
+          <Address>0</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\source\system\test_task.c</Filename>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\main.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\test\../source/system/test_task.c\22</Expression>
+          <Expression></Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -272,7 +271,7 @@
         <Mm>
           <WinNumber>1</WinNumber>
           <SubType>4</SubType>
-          <ItemText>0x20004998</ItemText>
+          <ItemText>0x20004910</ItemText>
           <AccSizeX>0</AccSizeX>
         </Mm>
       </MemoryWindow1>
@@ -282,7 +281,7 @@
       <DebugFlag>
         <trace>0</trace>
         <periodic>0</periodic>
-        <aLwin>1</aLwin>
+        <aLwin>0</aLwin>
         <aCover>0</aCover>
         <aSer1>0</aSer1>
         <aSer2>0</aSer2>
@@ -824,7 +823,7 @@
 
   <Group>
     <GroupName>Source</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

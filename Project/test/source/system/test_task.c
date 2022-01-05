@@ -2,7 +2,7 @@
  * @Descripttion: test task
  * @Author: Jerry
  * @Date: 2022-01-04 15:12:40
- * @LastEditTime: 2022-01-05 14:33:36
+ * @LastEditTime: 2022-01-05 14:53:23
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
@@ -16,11 +16,14 @@
 /*******************************************************************/
 static void test_task(void *para)
 {
+    float f = 0.3f;
     while(1)
     {
         LOGD("task: %s, freestack: %d, proi: %d\n", OS_TaskGetName(NULL), OS_TaskGetFreeStackSpace(NULL), OS_TaskGetPriority(NULL));
 
-        OS_MsDelay(1000);
+        f *= 3.0f;
+
+        OS_MsDelay(1000);			
     }
 }
 
