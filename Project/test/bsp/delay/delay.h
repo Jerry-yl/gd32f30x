@@ -2,7 +2,7 @@
  * @Descripttion: delay function
  * @Author: Jerry
  * @Date: 2021-12-13 17:05:30
- * @LastEditTime: 2022-01-05 11:14:37
+ * @LastEditTime: 2022-01-14 16:18:29
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
@@ -11,16 +11,18 @@
 
 #include "stdint.h"
 
-/**
- * @brief about delay a time in microsecond
- * @param count [in] us count
- */
-void delay_us(uint32_t count);
+void delay_init(void);
 
 /**
- * @brief about delay a time in milliseconds
- * @param count [in] ms count
+ * @brief delay a time in microsecond
+ * @param us [in] us
  */
-void delay_ms(uint32_t count);
+void delay_us(uint32_t us);
+
+/**
+ * @brief delay a time in milliseconds
+ * @param ms [in] ms
+ */
+void delay_ms(uint32_t ms);
 
 #endif

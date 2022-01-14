@@ -2,14 +2,14 @@
  * @Descripttion: test task
  * @Author: Jerry
  * @Date: 2022-01-04 15:12:40
- * @LastEditTime: 2022-01-05 14:53:23
+ * @LastEditTime: 2022-01-14 16:26:48
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
 #include "stdio.h"
 #include "osal.h"
-#include "systick.h"
 #include "gd32f303e_eval.h"
+#include "delay.h"
 
 /*******************************************************************/
 /***       			    Local Function                           ***/
@@ -22,6 +22,10 @@ static void test_task(void *para)
         LOGD("task: %s, freestack: %d, proi: %d\n", OS_TaskGetName(NULL), OS_TaskGetFreeStackSpace(NULL), OS_TaskGetPriority(NULL));
 
         f *= 3.0f;
+
+        LOGD("delay 111111\n");
+        delay_ms(1000);
+        LOGD("delay 222222\n");
 
         OS_MsDelay(1000);			
     }

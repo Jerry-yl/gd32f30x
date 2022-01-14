@@ -163,9 +163,25 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>44</LineNumber>
+          <LineNumber>24</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218456</Address>
+          <Address>134222466</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\source\system\test_task.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\test\../source/system/test_task.c\24</Expression>
+        </Bp>
+        <Bp>
+          <Number>1</Number>
+          <Type>0</Type>
+          <LineNumber>43</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218448</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -174,23 +190,23 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\gd32f30x_it.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\test\../gd32f30x_it.c\44</Expression>
+          <Expression>\\test\../gd32f30x_it.c\43</Expression>
         </Bp>
         <Bp>
-          <Number>1</Number>
+          <Number>2</Number>
           <Type>0</Type>
-          <LineNumber>31</LineNumber>
+          <LineNumber>26</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
+          <Address>134222478</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>..\main.c</Filename>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\source\system\test_task.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression></Expression>
+          <Expression>\\test\../source/system/test_task.c\26</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -271,7 +287,7 @@
         <Mm>
           <WinNumber>1</WinNumber>
           <SubType>4</SubType>
-          <ItemText>0x20004910</ItemText>
+          <ItemText>0x20004918</ItemText>
           <AccSizeX>0</AccSizeX>
         </Mm>
       </MemoryWindow1>
