@@ -2,7 +2,7 @@
  * @Descripttion: delay function
  * @Author: Jerry
  * @Date: 2021-12-13 17:05:25
- * @LastEditTime: 2022-01-14 16:23:12
+ * @LastEditTime: 2022-01-19 10:45:08
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
@@ -19,7 +19,7 @@
 #define DELAY_TIMER_PRESCALER   1
 #define DELAY_TIMER_PERIOD      60
 
-volatile static uint32_t gs_count = 0;
+volatile uint32_t g_timeticks = 0;
 
 /*******************************************************************/
 /***       			    Local Function                           ***/
@@ -50,7 +50,7 @@ void DELAY_TIMER_IRQ_HANDLER(void)
 {
     timer_interrupt_flag_clear(DELAY_TIMER_PERIPH, TIMER_INT_UP);
 
-    gs_count++;
+    g_timeticks++;
 }
 
 /******************************************************************/
@@ -67,8 +67,8 @@ void delay_init(void)
  */
 void delay_us(uint32_t us)
 {
-    uint32_t start_count = gs_count;
-    while((gs_count - start_count) < us);
+    uint32_t start_count = g_timeticks;
+    while((g_timeticks - start_count) < us);
 }
 
 /**

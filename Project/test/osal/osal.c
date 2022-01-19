@@ -2,7 +2,7 @@
  * @Descripttion: operating system abstract layer
  * @Author: Jerry
  * @Date: 2021-12-01 15:06:50
- * @LastEditTime: 2021-12-07 17:35:49
+ * @LastEditTime: 2022-01-19 10:51:53
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
@@ -28,6 +28,26 @@ void OS_Init(void)
 const char* OS_GetVersion(void)
 {
     return tskKERNEL_VERSION_NUMBER;
+}
+
+/**
+ * @brief printf system info, include task list and run time
+ */
+void OS_SysInfo(void)
+{
+    char *pBuf = OS_MemAlloc(uxTaskGetNumberOfTasks() * (60 + configMAX_TASK_NAME_LEN));
+    OLOGF("taskname     state     priority    freestack   number\n");
+    if(pBuf){
+        vTaskList(pBuf);
+        OLOGF("%s", pBuf);
+
+        OLOGF("\ntaskname     count     %%cpu\n");
+        vTaskGetRunTimeStats(pBuf);
+        OLOGF("%s", pBuf);
+        OS_MemFree(pBuf);
+    }else{
+        OLOGF("Heap space is not enough\n");
+    }
 }
 
 /**
@@ -147,6 +167,25 @@ void OS_TickDelayUntil(OS_TICKTYPE * const pxPreviousWakeTime, const OS_TICKTYPE
 OS_TICKTYPE OS_GetTickCount(void)
 {
     return xTaskGetTickCount();
+}
+
+/**
+ * @brief OS memory alloc
+ * @param {u32} size    - alloc size
+ * @retval memory address, NULL is failed
+ */
+void *OS_MemAlloc(u32 size)
+{
+    return pvPortMalloc(size);
+}
+
+/**
+ * @brief OS memory free
+ * @param {void} *m     - memory address
+ */
+void OS_MemFree(void *m)
+{
+    vPortFree(m);
 }
 
 /**

@@ -2,7 +2,7 @@
  * @Descripttion: operating system abstract layer
  * @Author: Jerry
  * @Date: 2021-12-01 15:06:50
- * @LastEditTime: 2021-12-07 17:27:27
+ * @LastEditTime: 2022-01-19 10:50:08
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
@@ -34,12 +34,16 @@ typedef TickType_t OS_TICKTYPE;
  */
 void OS_Init(void);
 
-
 /**
  * @brief get os version
  * @retval version string 
  */
 const char* OS_GetVersion(void);
+
+/**
+ * @brief printf system info, include task list and run time
+ */
+void OS_SysInfo(void);
 
 /**
  * create task
@@ -123,6 +127,19 @@ void OS_TickDelayUntil(OS_TICKTYPE * const pxPreviousWakeTime, const OS_TICKTYPE
  * @retval current tick count
  */
 OS_TICKTYPE OS_GetTickCount(void);
+
+/**
+ * @brief OS memory alloc
+ * @param {u32} size    - alloc size
+ * @retval memory address, NULL is failed
+ */
+void *OS_MemAlloc(u32 size);
+
+/**
+ * @brief OS memory free
+ * @param {void} *m     - memory address
+ */
+void OS_MemFree(void *m);
 
 /**
  * @brief OS application stack overflow hook

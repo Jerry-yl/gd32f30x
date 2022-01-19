@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Author: Jerry
  * @Date: 2021-11-30 16:33:34
- * @LastEditTime: 2021-12-08 17:58:54
+ * @LastEditTime: 2022-01-17 14:18:42
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
@@ -53,6 +53,8 @@
 	#include <stdint.h>
 	extern uint32_t SystemCoreClock;
 #endif
+extern volatile uint32_t g_timeticks;
+
 #include "stdio.h"
 #include "log.h"
 
@@ -65,10 +67,15 @@
 #define configMINIMAL_STACK_SIZE		( ( unsigned short ) 128 )
 #define configTOTAL_HEAP_SIZE			( ( size_t ) ( 17 * 1024 ) )
 #define configMAX_TASK_NAME_LEN			( 16 )
-#define configUSE_TRACE_FACILITY		0
 #define configUSE_16_BIT_TICKS			0
 #define configIDLE_SHOULD_YIELD			1
 #define configCHECK_FOR_STACK_OVERFLOW 	1
+
+#define configUSE_TRACE_FACILITY					1
+#define configGENERATE_RUN_TIME_STATS				1
+#define configUSE_STATS_FORMATTING_FUNCTIONS		1
+#define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS() 	(g_timeticks = 0ul)
+#define portGET_RUN_TIME_COUNTER_VALUE()            g_timeticks
 
 /* Co-routine definitions. */
 #define configUSE_CO_ROUTINES 		0

@@ -2,7 +2,7 @@
  * @Descripttion: test task
  * @Author: Jerry
  * @Date: 2022-01-04 15:12:40
- * @LastEditTime: 2022-01-14 16:26:48
+ * @LastEditTime: 2022-01-17 16:40:32
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
@@ -23,9 +23,7 @@ static void test_task(void *para)
 
         f *= 3.0f;
 
-        LOGD("delay 111111\n");
-        delay_ms(1000);
-        LOGD("delay 222222\n");
+        OS_SysInfo();
 
         OS_MsDelay(1000);			
     }
