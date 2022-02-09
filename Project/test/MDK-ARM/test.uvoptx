@@ -141,7 +141,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGTARM</Key>
-          <Name>(1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(1012=-1,-1,-1,-1,0)</Name>
+          <Name>(1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=690,75,938,653,0)(1012=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -163,9 +163,9 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>24</LineNumber>
+          <LineNumber>26</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134222466</Address>
+          <Address>134224322</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -174,14 +174,46 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\source\system\test_task.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\test\../source/system/test_task.c\24</Expression>
+          <Expression>\\test\../source/system/test_task.c\26</Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
+          <LineNumber>115</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219618</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\gd32f30x_it.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\test\../gd32f30x_it.c\115</Expression>
+        </Bp>
+        <Bp>
+          <Number>2</Number>
+          <Type>0</Type>
+          <LineNumber>94</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219626</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\gd32f30x_it.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\test\../gd32f30x_it.c\94</Expression>
+        </Bp>
+        <Bp>
+          <Number>3</Number>
+          <Type>0</Type>
           <LineNumber>43</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218448</Address>
+          <Address>134219160</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -193,20 +225,116 @@
           <Expression>\\test\../gd32f30x_it.c\43</Expression>
         </Bp>
         <Bp>
-          <Number>2</Number>
+          <Number>4</Number>
           <Type>0</Type>
-          <LineNumber>26</LineNumber>
+          <LineNumber>469</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134222478</Address>
+          <Address>134218160</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\source\system\test_task.c</Filename>
+          <Filename>..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\port.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\test\../source/system/test_task.c\26</Expression>
+          <Expression>\\test\../osal/FreeRTOS/kernel/portable/RVDS/ARM_CM4F/port.c\469</Expression>
+        </Bp>
+        <Bp>
+          <Number>5</Number>
+          <Type>0</Type>
+          <LineNumber>498</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218216</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\port.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\test\../osal/FreeRTOS/kernel/portable/RVDS/ARM_CM4F/port.c\498</Expression>
+        </Bp>
+        <Bp>
+          <Number>6</Number>
+          <Type>0</Type>
+          <LineNumber>301</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218134</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\port.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\test\../osal/FreeRTOS/kernel/portable/RVDS/ARM_CM4F/port.c\301</Expression>
+        </Bp>
+        <Bp>
+          <Number>7</Number>
+          <Type>0</Type>
+          <LineNumber>297</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218128</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\port.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\test\../osal/FreeRTOS/kernel/portable/RVDS/ARM_CM4F/port.c\297</Expression>
+        </Bp>
+        <Bp>
+          <Number>8</Number>
+          <Type>0</Type>
+          <LineNumber>24</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220976</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\main.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\test\../main.c\24</Expression>
+        </Bp>
+        <Bp>
+          <Number>9</Number>
+          <Type>0</Type>
+          <LineNumber>25</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220980</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\main.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\test\../main.c\25</Expression>
+        </Bp>
+        <Bp>
+          <Number>10</Number>
+          <Type>0</Type>
+          <LineNumber>512</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218234</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F\port.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\test\../osal/FreeRTOS/kernel/portable/RVDS/ARM_CM4F/port.c\512</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -286,8 +414,8 @@
       <MemoryWindow1>
         <Mm>
           <WinNumber>1</WinNumber>
-          <SubType>4</SubType>
-          <ItemText>0x20004918</ItemText>
+          <SubType>1</SubType>
+          <ItemText>0x200004B8</ItemText>
           <AccSizeX>0</AccSizeX>
         </Mm>
       </MemoryWindow1>
@@ -302,8 +430,8 @@
         <aSer1>0</aSer1>
         <aSer2>0</aSer2>
         <aPa>0</aPa>
-        <viewmode>1</viewmode>
-        <vrSel>0</vrSel>
+        <viewmode>2</viewmode>
+        <vrSel>3</vrSel>
         <aSym>0</aSym>
         <aTbox>0</aTbox>
         <AscS1>0</AscS1>
@@ -779,7 +907,7 @@
 
   <Group>
     <GroupName>BSP</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -925,7 +1053,7 @@
 
   <Group>
     <GroupName>Osal</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

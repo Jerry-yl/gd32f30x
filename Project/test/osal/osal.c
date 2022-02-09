@@ -2,7 +2,7 @@
  * @Descripttion: operating system abstract layer
  * @Author: Jerry
  * @Date: 2021-12-01 15:06:50
- * @LastEditTime: 2022-01-19 10:51:53
+ * @LastEditTime: 2022-02-09 10:29:48
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
@@ -196,4 +196,9 @@ void OS_MemFree(void *m)
 void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName )
 {
     OLOGF("<!!!OS stack overflow!!!> task: %s\n", pcTaskName);
+}
+
+void vApplicationIdleHook( void )
+{
+    
 }

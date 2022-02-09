@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Author: Jerry
  * @Date: 2021-11-30 16:33:34
- * @LastEditTime: 2022-01-17 14:18:42
+ * @LastEditTime: 2022-02-09 10:29:02
  * 
  * Copyright © 2021 Jerry, All Rights Reserved
  */
@@ -59,7 +59,7 @@ extern volatile uint32_t g_timeticks;
 #include "log.h"
 
 #define configUSE_PREEMPTION			1
-#define configUSE_IDLE_HOOK				0
+#define configUSE_IDLE_HOOK				1
 #define configUSE_TICK_HOOK				0
 #define configCPU_CLOCK_HZ				( ( unsigned long ) SystemCoreClock )	
 #define configTICK_RATE_HZ				( ( TickType_t ) 1000 )
