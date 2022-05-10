@@ -349,7 +349,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>1</Optim>
+            <Optim>0</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -369,7 +369,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F30X_HD,__FPU_PRESENT</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\Library\Firmware\CMSIS;..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include;..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include;..\..\..\Library\Utilities;..\;..\bsp\key;..\bsp\led;..\source;..\osal\FreeRTOS\kernel\include;..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F;..\osal\FreeRTOS;..\osal;..\source\system;..\source\output;..\source\input\sensor;..\source\common;..\bsp\i2c;..\bsp\delay;..\source\network</IncludePath>
+              <IncludePath>..\..\..\Library\Firmware\CMSIS;..\..\..\Library\Firmware\CMSIS\GD\GD32F30x\Include;..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include;..\..\..\Library\Utilities;..\;..\bsp\key;..\bsp\led;..\source;..\osal\FreeRTOS\kernel\include;..\osal\FreeRTOS\kernel\portable\RVDS\ARM_CM4F;..\osal\FreeRTOS;..\osal;..\source\system;..\source\output;..\source\input\sensor;..\source\common;..\bsp\i2c;..\bsp\delay;..\source\network;..\RTT\Config;..\RTT\RTT</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -746,6 +746,21 @@
               <FileName>heap_4.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\osal\FreeRTOS\kernel\portable\MemMang\heap_4.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>RTT</GroupName>
+          <Files>
+            <File>
+              <FileName>SEGGER_RTT.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\RTT\RTT\SEGGER_RTT.c</FilePath>
+            </File>
+            <File>
+              <FileName>SEGGER_RTT_printf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\RTT\RTT\SEGGER_RTT_printf.c</FilePath>
             </File>
           </Files>
         </Group>
