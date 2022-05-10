@@ -2,7 +2,7 @@
  * @Descripttion: debug log
  * @Author: Jerry
  * @Date: 2021-12-07 13:40:37
- * @LastEditTime: 2022-01-26 16:26:58
+ * @LastEditTime: 2022-05-10 16:27:01
  * 
  * reference url: https://blog.csdn.net/qq_42073370/article/details/82532291?utm_source=app
  * 
@@ -14,6 +14,7 @@
 #include <stdio.h>
 #include "string.h"
 #include "config.h"
+#include "SEGGER_RTT.h"
  
 //Change the row control log output level (that is, change LDG_LEVEL_DEBUG)
 #define LOG_LEVEL           LOG_LEVEL_ALL
@@ -56,7 +57,7 @@
 #if(SYS_DEBUG_PRINTF_ENABLE == 0)
 #define my_printf(fmt,...)
 #else
-#define my_printf(fmt,...)   printf(fmt, ##__VA_ARGS__)
+#define my_printf(fmt,...)   SEGGER_RTT_printf(0, fmt, ##__VA_ARGS__);//printf(fmt, ##__VA_ARGS__) 
 #endif
  
 //Log file creation and output 
